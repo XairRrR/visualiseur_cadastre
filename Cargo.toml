@@ -1,0 +1,17 @@
+[package]
+name = "visualiseur_cadastre"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+gdal = { version = "0.17", features = ["bindgen"] }
+geo-types = "0.7"
+las = { version = "0.7", features = ["laz"] }
+spade = "2.2"
+geo = "0.28"
+rfd = "0.14"
+futures-lite = "2.3"
+
+bevy = "0.13.2"
+bevy_egui = "0.27.0"
+bevy_panorbit_camera = "0.15.0"
