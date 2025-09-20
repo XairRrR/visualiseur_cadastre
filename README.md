@@ -1,5 +1,7 @@
 # VentaMaps
 
+Un simple visualiseur et éditeur de parcelles cadastral
+
 ## Comment le build et run
 
 1. Avoir rust et git d'installer
